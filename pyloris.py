@@ -68,7 +68,7 @@ class MainWindow(Tk):
         Entry(gf, textvariable = self.options['port']).grid(row = 1, column = 2, columnspan = 2)
         Checkbutton(gf, text = 'SSL', variable = self.options['ssl']).grid(row = 2, column = 1)
 
-        bf = LabelFrame(self, text = 'Behavior', relief = GROOVE, labelanchor = 'nw', width = 400, height = 200)
+        bf = LabelFrame(self, text = 'Behavior', relief = GROOVE, labelanchor = 'nw', width = 400, height = 170)
         bf.grid(row = 1, column = 1)
         bf.grid_propagate(0)
         Label(bf, text = 'Attack Limit (0 = No limit):').grid(row = 0, column = 1)
