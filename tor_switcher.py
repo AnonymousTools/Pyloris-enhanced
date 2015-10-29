@@ -19,7 +19,7 @@ class Switcher(Tk):
         self.passwd = StringVar()
         self.time = DoubleVar()
 
-        self.host.set('localhost')
+        self.host.set('127.0.0.1')
         self.port.set('9051')
         self.passwd.set('')
         self.time.set('30')
