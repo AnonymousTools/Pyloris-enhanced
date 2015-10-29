@@ -1,6 +1,7 @@
 #Pyloris
 
-enhanced Pyloris script By GlobalRevolution team.
+Enhanced Pyloris script By GlobalRevolution team.
+
 Main site of this project is http://motoma.io/pyloris
 
 It also aims to create high-quality documentation for using Pyloris safely and effectively.
